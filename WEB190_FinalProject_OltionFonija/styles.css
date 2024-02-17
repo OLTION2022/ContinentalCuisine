@@ -1,0 +1,107 @@
+body {
+    background-color: white;
+  }
+  .navbar {
+    background-color: #000000;
+    position: fixed;
+    width: 100%;
+  }
+  .navbar-brand,
+  .navbar-nav .nav-link {
+    color: #ffffff;
+    margin-right: 10px;
+  }
+  .nav-item.active .nav-link {
+    color: #FF0000;
+  }
+  .h2 {
+    text-align: center;
+  }
+  .navbar-brand h5 {
+    text-align: center;
+    font-size: small;
+  }
+  .jumbotron {
+    background-image: url('platter.jpg');
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+    padding: 100px 0;
+    margin-bottom: 0;
+  }
+  .jumbotron h1 {
+    text-shadow: 1px 1px #000000;
+  }
+  .jumbotron p {
+    text-shadow: 1px 1px #000000;
+  }
+  .jumbotronabout {
+    background-image: url('about1.jpg');
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+    padding: 100px 0;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  .jumbotronabout h1 {
+    text-shadow: 1px 1px #000000;
+  }
+  .jumbotronabout p {
+    text-shadow: 1px 1px #000000;
+  }
+  .jumbotronmenu {
+    background-image: url('menu.jpg');
+    background-size:cover;
+    color: #ffffff;
+    text-align: center;
+    padding: 100px 0;
+    margin-bottom: 0;
+  }
+  .jumbotronmenu h1 {
+    text-shadow: 1px 1px #000000;
+  }
+  .jumbotronmenu p {
+    text-shadow: 1px 1px #000000;
+  }
+  .jumbotroncontact {
+    background-image: url('contact.jpg');
+    background-size:cover;
+    color: #ffffff;
+    font-weight: 900;
+    text-align: center;
+    padding: 100px 0;
+    margin-bottom: 0;
+  }
+  .jumbotroncontact h1 {
+    text-shadow: 1px 1px #000000;
+  }
+  .jumbotroncontact p {
+    text-shadow: 1px 1px #000000;
+  }
+  .menu-section {
+    padding: 50px 20px 20px 20px;
+    text-align: center;
+  }
+  .menu-item {
+    margin-bottom: 40px;
+  }
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: #000000;
+  }
+  .carousel-control-prev:hover .carousel-control-prev-icon,
+  .carousel-control-next:hover .carousel-control-next-icon {
+    background-color: #e40505;
+  }
+  .footer {
+    background-color: black;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  .custom-margin {
+    margin-top: 12px;
+}
+  
+  

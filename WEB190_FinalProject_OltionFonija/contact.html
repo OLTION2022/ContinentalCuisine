@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+    Oltion Fonija
+    Web 190 - Fall 2023
+    Final Project: Restaurant Website
+    Dec 7, 2023
+-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Connect with Continental Cuisine. Reach out to us for inquiries, feedback, or collaboration opportunities. We're here to answer your questions and make your experience delightful.">
+    <title>Final Project - Continental Cuisine - Contact Page</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-xxl navbar-dark fixed-top">
+        <div class="container-fluid text-light">
+            <a class="navbar-brand" href="index.html">
+                <img src="CCLogo.png" alt="Logo Continental Cuisine" width="70" height="70" class="d-inline-block align-top">
+            </a>
+            <a class="navbar-brand" href="index.html">
+                <h2>Continental Cuisine</h2>
+                <h5>Exploring the World on a Plate</h5>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html">Reservation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Jumbotron -->
+    <div class="jumbotroncontact"> 
+        <h1 class="display-4 text-outline-dark">Your Culinary Connection Starts Here</h1>
+        <h1 class="display-4 text-outline-dark">Reach Out and Taste the Difference!</h1>
+        <p class="lead text-outline-dark">For delicious meals that bring people together!</p>
+        <a href="menu.html" class="btn btn-light btn-outline-dark btn-lg m-3">Make A Reservation</a>
+    </div>
+    <div class="container-fluid bg-light text-dark">
+        <!-- Start of main area -->
+        <div class="row p-4 my-2">
+            <div class="col-sm-12 col-md-8 p-2 my-2">
+                <h2>Get in touch!</h2>
+                <form action="/action_page.php">
+                    <div class="mb-3 mt-3 p-1 my-1">
+                        <label for="name">Name:</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name">
+                    </div>
+                    <div class="mb-3 mt-3 p-1 my-1">
+                        <label for="email">E-mail:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter Email" name="email">
+                    </div>
+                    <div class="mb-3 mt-3 p-1 my-1">
+                      <label for="phone">Phone</label>
+                      <input type="tel" class="form-control" id="phone" placeholder="Enter Phone" name="phone">
+                    </div>
+                    <div class="mb-3 mt-3 p-1 my-1">
+                        <label for="comment">Comments:</label>
+                        <textarea class="form-control" rows="5" id="comment" placeholder="Enter Comments" name="text"></textarea>
+                        <button type="submit" class="btn btn-primary mt-1">Submit</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-sm-12 col-md-4 pr-4 my-2 text-center">
+                <h2>Visit Us</h2>
+                <h3>Hours of Operation</h3>
+                <p>Monday – Thursday  11:30am – 10:00 PM</p>
+                <p>Friday  11:30am – 11:00 PM</p>
+                <p>Saturday  3:30pm – 11:00 PM</p>
+                <p>Sunday  12:00pm – 8:00 PM</p>
+                <!-- Map -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11844.904838803368!2d-88.0726905!3d42.0812026!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fa5ea9833a843%3A0xeb56837f813674f!2sHarper%20College!5e0!3m2!1sen!2sus!4v1701056093066!5m2!1sen!2sus"
+                    width="455" height="225" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <p>For reservations or inquiries, call us at: <a href="tel:+12223335555" class="btn btn-primary">(222) 333-5555</a></p>
+            </div>
+        </div>
+    </div><!-- End of main area -->
+    <!-- Footer Section -->
+    <div class="footer">
+        <div class="row">
+            <div class="col-sm-4">
+                <h2>Contact Us</h2>
+                <p>Reach out to us for reservations or inquiries.</p>
+                <p>Email: info@continentalcuisine.com</p>
+                <p>Phone: (222) 333-5555</p>
+            </div>
+            <div class="col-sm-4">
+                <a class="navbar-brand" href="index.html">
+                    <img src="CCLogo.png" alt="Logo" width="90" height="90" class="d-inline-block align-top">
+                    <p class="custom-margin">1200 W Algonquin Rd,</p>
+                    <p>Palatine, IL 60067</p>
+                </a>
+            </div>
+            <div class="col-sm-4">
+                <h2>Hours of Operation</h2>
+                <p>Monday – Thursday  11:30am – 10:00 PM</p>
+                <p>Friday  11:30am – 11:00 PM</p>
+                <p>Saturday  3:30pm – 11:00 PM</p>
+                <p>Sunday  12:00pm – 8:00 PM</p>
+            </div>
+            <div class="col-sm-12 text-center pt-3 text-secondary">
+                <p>Copyright©, Continental Cuisine 2023</p>
+            </div>
+        </div>
+    </div>
+    <!-- end of main -->
+    <!-- end of footer -->
+    <!-- end of open page container -->
+    <!-- Bootstrap JS and Popper.js (optional) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+

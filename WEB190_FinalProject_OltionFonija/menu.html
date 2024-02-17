@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+    Oltion Fonija
+    Web 190 - Fall 2023
+    Final Project: Restaurant Website
+    Dec 7, 2023
+-->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Dive into a world of flavor with our tantalizing menu at Continental Cuisine. From exquisite starters to sumptuous entrees, each dish is a culinary masterpiece crafted to delight your senses. Embark on a gastronomic journey like never before.">
+  <title>Final Project - Continental Cuisine - Menu Page</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- External CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-xxl navbar-dark fixed-top">
+    <div class="container-fluid text-light">
+      <a class="navbar-brand" href="index.html">
+        <img src="CCLogo.png" alt="Logo Continental Cuisine" width="70" height="70" class="d-inline-block align-top">
+      </a>
+      <a class="navbar-brand" href="index.html">
+        <h2>Continental Cuisine</h2>
+        <h5>Exploring the World on a Plate</h5>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="menu.html">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="menu.html">Reservation</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Jumbotron -->
+  <div class="jumbotronmenu">
+    <h1 class="display-4 text-outline-dark">Get a taste of our menu!</h1>
+    <p class="lead text-outline-dark">For delicious meals that bring people together!</p>
+    <a href="menu.html" class="btn btn-light btn-outline-dark btn-lg m-3">Make A Reservation</a>
+  </div>
+  <div class="col-sm-12 text-center pt-1 text-danger">
+    <h4>FOOD ALLERGY WARNING</h4>
+    <p>Our menu may include common allergens: "peanuts, tree nuts, wheat, soy, dairy, and shellfish"; kindly inform our staff of any allergies or dietary restrictions. 
+      We prioritize your safety by preparing everything fresh with care.</p>
+  </div>
+        <!-- Menu Section -->
+  <div class="container mt-5">
+    <h2 class="text-center mb-4">Our Menu</h2>
+    <!-- Menu Sections Navigation -->
+    <div class="text-center mb-4">
+      <a href="#appetizers" class="btn btn-outline-dark mx-2">Appetizers</a>
+      <a href="#soups&salads" class="btn btn-outline-dark mx-2">Soups & Salads</a>
+      <a href="#main-courses" class="btn btn-outline-dark mx-2">Main Courses</a>
+      <a href="#desserts" class="btn btn-outline-dark mx-2">Desserts</a>
+      <a href="#drinks" class="btn btn-outline-dark mx-2">Drinks</a>
+    </div>
+    <!-- Appetizers Section -->
+    <section id="appetizers">
+      <h3 class="mb-3 p-2">Appetizers</h3>
+      <div class="row">
+        <!-- Appetizer 1 -->
+        <div class="col-md-3">
+          <div class="card mb-3 bg-dark text-light">
+            <img src="calamari.jpg" class="card-img-top" alt="Crispy Calamari">
+            <div class="card-body">
+              <h5 class="card-title">Crispy Calamari</h5>
+              <p class="card-text">Golden-fried calamari rings, tender and irresistibly flavorful.</p>
+              <p class="card-text">Price: $19.99</p>
+            </div>
+          </div>
+        </div>
+        <!-- Appetizer 2 -->
+        <div class="col-md-3">
+          <div class="card mb-3 bg-dark text-light">
+            <img src="mushrooms.jpg" class="card-img-top" alt="Stuffed Mushrooms with Goat Cheese and Herbs">
+            <div class="card-body">
+              <h5 class="card-title">Savory Stuffed Mushrooms</h5>
+              <p class="card-text">Mushroom caps filled with a delectable blend of savory goodness.</p>
+              <p class="card-text">Price: $11.99</p>
+            </div>
+          </div>
+        </div>
+        <!-- Appetizer 3 -->
+        <div class="col-md-3">
+          <div class="card mb-3 bg-dark text-light">
+            <img src="caprese-skewers.jpeg" class="card-img-top" alt="Caprese Skewers">
+            <div class="card-body">
+              <h5 class="card-title">Caprese Skewers</h5>
+              <p class="card-text">Mozzarella, tomatoes, basil - a fresh, bite-sized taste of Italy.</p>
+              <p class="card-text">Price: $9.99</p>
+            </div>
+          </div>
+        </div>
+        <!-- Appetizer 4 -->
+        <div class="col-md-3">
+          <div class="card mb-3 bg-dark text-light">
+            <img src="bruschetta.jpg" class="card-img-top" alt="bruschetta">
+            <div class="card-body">
+              <h5 class="card-title">Bruschetta Bliss</h5>
+              <p class="card-text">Tomato, basil, garlic dance on crispy Italian bread bites.</p>
+              <p class="card-text">Price: $10.99</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Soups & Salads Section -->
+    <section id="soups&salads">
+      <h3 class="mb-3 p-1">Soups & Salads</h3>
+      <div class="row">
+        <!-- Soup  1 -->
+        <div class="col-md-3">
+          <div class="card mb-3 bg-dark text-light">
+            <img src="lobster-soup.jpg" class="card-img-top" alt="Lobster Bisque Elegance Soup">
+            <div class="card-body">
+              <h5 class="card-title">Lobster Bisque Elegance</h5>
+              <p class="card-text">Luxurious lobster bisque, rich blend of aromatic herbs and spices, indulgent sublime.</p>
+              <p class="card-text">Price: $10.99</p>
+            </div>
+          </div>
+        </div>
+        <!-- Soup 2 -->
+        <div class="col-md-3">
+          <div class="card mb-3 bg-dark text-light">
+            <img src="soup2.jpg" class="card-img-top" alt="Creamy Parsley, Leek, and Potato Soup">
+            <div class="card-body">
+              <h5 class="card-title">Creamy Leek & Potato Soup</h5>
+              <p class="card-text">Velvety blend of leeks, potatoes, and parsley, creating a creamy, comforting soup delight.</p>
+              <p class="card-text">Price: $7.99</p>
+            </div>
+          </div>
+        </div>
+        <!-- Salad 1 -->
+        <div class="col-md-3">
+          <div class="card mb-3 bg-dark text-light">
+            <img src="salad1.jpg" class="card-img-top" alt="Tomato Arugula Salad">
+            <div class="card-body">
+              <h5 class="card-title">Tomato Arugula Delight</h5>
+              <p class="card-text">Fresh medley, plump cherry tomatoes,, arugula burst, tossed in a balsamic vinaigrette.</p>
+              <p class="card-text">Price: $14.99</p>
+            </div>
+          </div>
+        </div>
+        <!-- Salad 2 -->
+        <div class="col-md-3">
+          <div class="card mb-3 bg-dark text-light">
+            <img src="salad2.jpg" class="card-img-top" alt="Mediterranean Veggie Salad">
+            <div class="card-body">
+              <h5 class="card-title">Mediterranean Veggie</h5>
+              <p class="card-text">Red peppers, green peppers, tomatoes, feta cheese, olive oil meld in a vibrant, flavorful salad.</p>
+              <p class="card-text">Price: $12.99</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Main Courses Section -->
+    <section id="main-courses">
+      <h3 class="mb-3 p-1">Main Courses</h3>
+      <div class="row">
+        <!-- Main Course 1 -->
+        <div class="col-md-3">
+          <div class="card mb-3 bg-dark text-light">
+            <img src="fish.jpg" class="card-img-top" alt="Grilled Sea Bass">
+            <div class="card-body">
+              <h5 class="card-title">Grilled Sea Bass</h5>
+              <p class="card-text">Ocean-fresh delight, perfectly grilled for exquisite tenderness.</p>
+              <p class="card-text">Price: $25.99</p>
+            </div>
+          </div>
+        </div>
+        <!-- Main Course 2 -->
+        <div class="col-md-3">
+          <div class="card mb-3 bg-dark text-light">
+            <img src="steak.jpg" class="card-img-top" alt="Steak Elegance">
+            <div class="card-body">
+              <h5 class="card-title">Steak Elegance</h5>
+              <p class="card-text">Prime cuts char-grilled to perfection for a sumptuous experience.</p>
+              <p class="card-text">Price: $32.99</p>
+            </div>
+          </div>
+        </div>
+        <!-- Main Course 3 -->
+        <div class="col-md-3">
+          <div class="card mb-3 bg-dark text-light">
+            <img src="curry.jpg" class="card-img-top" alt="Curry Harmony">
+            <div class="card-body">
+              <h5 class="card-title">Curry Harmony</h5>
+              <p class="card-text">Exotic spices weave a flavorful tale in every exquisite bite.</p>
+              <p class="card-text">Price: $15.99</p>
+            </div>
+          </div>
+        </div>
+        <!-- Main Course 4 -->
+        <div class="col-md-3">
+          <div class="card mb-3 bg-dark text-light">
+            <img src="chicken.jpg" class="card-img-top" alt="Roasted Chicken Pomodoro Pasta">
+            <div class="card-body">
+              <h5 class="card-title">Roasted Chicken Pomodoro</h5>
+              <p class="card-text">Spaghetti with Tomato Sauce and Sliced Roast Chicken Breast.</p>
+              <p class="card-text">Price: $19.99</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Drinks Section -->
+  <section id="drinks">
+    <h3 class="mb-3 p-1">Drinks</h3>
+    <div class="row">
+      <!-- Drink 1 -->
+      <div class="col-md-3">
+        <div class="card mb-3 bg-dark text-light">
+          <img src="wines.jpg" class="card-img-top" alt="House Wine, Red, White">
+          <div class="card-body">
+            <h5 class="card-title">House Wine</h5>
+            <p class="card-text">Timeless red and white blend.</p>
+            <p class="card-text">Price: $29.99</p>
+          </div>
+        </div>
+      </div>
+      <!-- Drink 2 -->
+      <div class="col-md-3">
+        <div class="card mb-3 bg-dark text-light">
+          <img src="smoothie.jpg" class="card-img-top" alt="Smoothies">
+          <div class="card-body">
+            <h5 class="card-title">Smoothies</h5>
+            <p class="card-text">Tropical joy in every sip.</p>
+            <p class="card-text">Price: $5.99</p>
+          </div>
+        </div>
+      </div>
+      <!-- Drink 3 -->
+      <div class="col-md-3">
+        <div class="card mb-3 bg-dark text-light">
+          <img src="tea.jpg" class="card-img-top" alt="Tea">
+          <div class="card-body">
+            <h5 class="card-title">Tea</h5>
+            <p class="card-text">Harmonious herbal infusion.</p>
+            <p class="card-text">Price: $5.99</p>
+          </div>
+        </div>
+      </div>
+      <!-- Drink 4 -->
+      <div class="col-md-3">
+        <div class="card mb-3 bg-dark text-light">
+          <img src="coffee.jpg" class="card-img-top" alt="Espresso, coffee">
+          <div class="card-body">
+            <h5 class="card-title">Espresso</h5>
+            <p class="card-text">Bold, robust wake-up call.</p>
+            <p class="card-text">Price: $3.99</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    <!-- Desserts Section -->
+    <section id="desserts">
+      <h3 class="mb-3 p-1">Desserts</h3>
+      <div class="row">
+        <!-- Dessert 1 -->
+        <div class="col-md-3 ">
+          <div class="card mb-3 bg-dark text-light">
+            <img src="tiramisu1.jpg" class="card-img-top" alt="Tiramisu ladyfinger biscuits soaked in robust espresso">
+            <div class="card-body">
+              <h5 class="card-title">Classic Tiramisu Temptation</h5>
+              <p class="card-text">Layers of espresso-soaked ladyfingers, mascarpone, and cocoa.</p>
+              <p class="card-text">Price: $9.99</p>
+            </div>
+          </div>
+        </div>
+        <!-- Dessert 2 -->
+        <div class="col-md-3">
+          <div class="card mb-3 bg-dark text-light">
+            <img src="cheesecakes.jpg" class="card-img-top" alt="Cherry Cheesecake">
+            <div class="card-body">
+              <h5 class="card-title">Cherry Cheesecake</h5>
+              <p class="card-text">Velvety cheesecake crowned with luscious cherry.</p>
+              <p class="card-text">Price: $10.99</p>
+            </div>
+          </div>
+        </div>
+        <!-- Dessert 3 -->
+        <div class="col-md-3">
+          <div class="card mb-3 bg-dark text-light">
+            <img src="baklava.jpg" class="card-img-top" alt="Baklava, phyllo dough, crunchy nuts">
+            <div class="card-body">
+              <h5 class="card-title">Baklava Delightful Crunch</h5>
+              <p class="card-text">Layers of phyllo, nuts, and honey - a sweet sensation.</p>
+              <p class="card-text">Price: $12.99</p>
+            </div>
+          </div>
+        </div>
+        <!-- Dessert 4 -->
+        <div class="col-md-3">
+          <div class="card mb-3 bg-dark text-light">
+            <img src="fruit.jpg" class="card-img-top" alt="Fresh fruits">
+            <div class="card-body">
+              <h5 class="card-title">Bountiful Fruit Symphony</h5>
+              <p class="card-text">A melody of fresh fruits, vibrant colors, and natural sweetness.</p>
+              <p class="card-text">Price: $9.99</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="col-sm-12 text-center pt-3 text-dark">
+    <p>"Thank you for choosing to dine with us; your presence made our restaurant truly special. We hope to welcome you back soon!"</p>
+  </div>
+  <!-- Footer Section -->
+  <div class="footer">
+    <div class="row">
+      <div class="col-sm-4">
+        <h3>Contact Us</h3>
+        <p>Reach out to us for reservations or inquiries.</p>
+        <p>Email: info@continentalcuisine.com</p>
+        <p>Phone: (222) 333-5555</p>
+      </div>
+      <div class="col-sm-4">
+        <a class="navbar-brand" href="index.html">
+          <img src="CCLogo.png" alt="Logo" width="90" height="90" class="d-inline-block align-top">
+          <p class="custom-margin">1200 W Algonquin Rd,</p>
+          <p>Palatine, IL 60067</p>
+        </a>
+      </div>
+      <div class="col-sm-4">
+        <h3>Hours of Operation</h3>
+        <p>Monday – Thursday  11:30am – 10:00 PM</p>
+        <p>Friday  11:30am – 11:00 PM</p>
+        <p>Saturday  3:30pm – 11:00 PM</p>
+        <p>Sunday  12:00pm – 8:00 PM</p>
+      </div>
+      <div class="col-sm-12 text-center pt-3 text-secondary">
+        <p>Copyright©, Continental Cuisine 2023</p>
+      </div>
+    </div>
+  </div>
+  <!-- end of main -->
+  <!-- end of footer -->
+  <!-- end of open page container -->
+  <!-- Bootstrap JS and Popper.js (optional) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
